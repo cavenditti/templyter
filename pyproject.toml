@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "templyter"
+version = "0.1.0"
+description = "Radically simple Jypyter notebooks templating"
+authors = ["Carlo Antonio Venditti <c.a.venditti@pm.me>"]
+license = "GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nbconvert = "^7.9.2"
+nbformat = "^5.9.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+ruff = "^0.0.272"
+pytest = "^7.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
